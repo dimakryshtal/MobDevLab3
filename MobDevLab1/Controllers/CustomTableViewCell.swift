@@ -22,6 +22,8 @@ class CustomTableViewCell: UITableViewCell {
             if let path = Bundle.main.path(forResource: name, ofType: "jpg") {
                 myImageView.image = UIImage(contentsOfFile: path)
             }
+        } else {
+            myImageView.image = nil
         }
         myContentView.bottomAnchor.constraint(greaterThanOrEqualTo: myImageView.bottomAnchor, constant: 10).isActive = true
         myContentView.bottomAnchor.constraint(greaterThanOrEqualTo: myStackView.bottomAnchor, constant: 10).isActive = true

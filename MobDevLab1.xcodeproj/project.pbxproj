@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3204AA9B25EAD5130090A6F6 /* Poster_06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3204AA9A25EAD5130090A6F6 /* Poster_06.jpg */; };
 		321AEA9025E00E8A000C123E /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321AEA8F25E00E8A000C123E /* ListViewController.swift */; };
 		321AEAA325E01A7A000C123E /* MoviesList.txt in Resources */ = {isa = PBXBuildFile; fileRef = 321AEAA225E01A7A000C123E /* MoviesList.txt */; };
 		329A027425DAB177001380B8 /* DiagramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329A027325DAB177001380B8 /* DiagramView.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3204AA9A25EAD5130090A6F6 /* Poster_06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Poster_06.jpg; path = "../../../../../Downloads/Programming assignment 3 1/Posters/Poster_06.jpg"; sourceTree = "<group>"; };
 		321AEA8F25E00E8A000C123E /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		321AEAA225E01A7A000C123E /* MoviesList.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = MoviesList.txt; sourceTree = "<group>"; };
 		329A027325DAB177001380B8 /* DiagramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagramView.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				32FC8D5725E186A500377BE2 /* Poster_02.jpg */,
 				32FC8D5525E186A400377BE2 /* Poster_03.jpg */,
 				32FC8D5925E186A500377BE2 /* Poster_05.jpg */,
+				3204AA9A25EAD5130090A6F6 /* Poster_06.jpg */,
 				32FC8D5325E186A400377BE2 /* Poster_07.jpg */,
 				32FC8D5425E186A400377BE2 /* Poster_08.jpg */,
 				32FC8D5825E186A500377BE2 /* Poster_10.jpg */,
@@ -224,6 +227,7 @@
 				32BC842725CEDA0600DB61EA /* Assets.xcassets in Resources */,
 				32FC8D5B25E186A500377BE2 /* Poster_08.jpg in Resources */,
 				32FC8D5E25E186A500377BE2 /* Poster_02.jpg in Resources */,
+				3204AA9B25EAD5130090A6F6 /* Poster_06.jpg in Resources */,
 				32BC842525CED9FF00DB61EA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
