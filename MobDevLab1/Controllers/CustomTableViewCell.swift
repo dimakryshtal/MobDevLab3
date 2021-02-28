@@ -29,11 +29,20 @@ class CustomTableViewCell: UITableViewCell {
         myContentView.bottomAnchor.constraint(greaterThanOrEqualTo: myStackView.bottomAnchor, constant: 10).isActive = true
         title.text = movie.title
         if(movie.year == "") {
+            year.text = nil
             year.isHidden = true
+            
         } else {
+            year.isHidden = false
             year.text = movie.year
         }
-        type.text = movie.type
-        
+        if(movie.type == "") {
+            type.text = nil
+            type.isHidden = true
+            
+        } else {
+            type.isHidden = false
+            type.text = movie.type
+        }
     }
 }
